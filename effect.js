@@ -168,6 +168,7 @@ $('document').ready(function(){
 		$(this).fadeOut('slow');
 		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
+			$('#next_page').fadeIn('slow');
 		});
 		
 		var i;
@@ -195,7 +196,7 @@ $('document').ready(function(){
 	});
 
 	$('#next_page').click(function(){
-		$(this).fadeOut('slow');
+		$(this).fadeOut('slow');\
 		document.location = 'https://hbdelaine.github.io/hbd/'
 	});
 });
