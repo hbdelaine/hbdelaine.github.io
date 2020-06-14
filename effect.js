@@ -197,7 +197,7 @@ $('document').ready(function(){
 
 	$('#next_page').click(function(){
 		$(this).fadeOut('slow');
-		window.location.href = 'https://hbdelaine.github.io/hbd/'
+		window.location.href = '/hbd/'
 	});
 });
 
